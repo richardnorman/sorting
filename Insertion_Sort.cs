@@ -7,7 +7,7 @@ namespace InsertionSort
         static void Main(string[] args)
         {
             Random random = new Random();
-            //create an array with a random size fror 5-15
+            //create an array with a random size from 5-15
             var randomArray = new int[random.Next(5,15)];
 
             for (var i = 0; i < randomArray.Length; i++)
